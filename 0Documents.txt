@@ -1,0 +1,19 @@
+What are the approches availaible in PHP?
+Hall_of_Famer: Procedural programming is for amateurs, OOP on the other hand is what it takes for professional programming. The advantages are more evident in larger programs, which are pretty much impossible to work on with procedural style, especially when teamwork is required.
+
+What is Best PDO or MySQLi?
+If you need a short answer, it would be "Whatever you like". Both MySQLi and PDO have their advantages: PDO will work on 12 different database systems, whereas MySQLi will only work with MySQL databases. So, if you have to switch your project to use another database, PDO makes the process easy.
+
+Some Usefull Functions
+  if($employee instanceof E)
+
+  trait Z{
+    function func(){
+      echo "Trait Z Function Called";
+    }
+  }
+
+  class FullTimeEmployee extends Employee{
+
+  
+
