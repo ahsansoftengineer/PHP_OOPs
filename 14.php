@@ -35,11 +35,10 @@
         if(property_exists($this, $name)){
           $this->$name = $value;
           echo "'$name' set to '$value' successfully<br>";
-        }else {
+        } else {
           echo "Non Exsisting property : $name <br>";
         }
       }
-
     }
     $test = new Test();
     // echo $test->privateProperty; // Example for __get private property
